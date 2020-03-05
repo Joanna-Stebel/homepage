@@ -1,10 +1,20 @@
 body {
     background: #fefefe;
+    margin-left: 0em;
+    margin-right: 0em;
+}
+
+main {
+    margin-right: 1em;
+    margin-left: 1em;
+}
+
+.heading {
+    background: #7d7f80;
 }
 
 .header {
     color: #033b55;
-    background: #7d7f80;
 }
 
 h2.section-header {
@@ -13,5 +23,5 @@ h2.section-header {
 }
 
 .information-me {
-    font-size: 0.75em;
+    font-size: 1em;
 }
