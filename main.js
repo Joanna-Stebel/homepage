@@ -8,6 +8,6 @@
 
 //console.log(`Nazywam się ${name} i mam ${age} lat`);
 
-const hello = 'Cześć! Fajnie cię widzieć ;P';
+//const hello = 'Cześć! Fajnie cię widzieć ;P';
 
-alert(hello);
+//alert(hello);

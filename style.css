@@ -2,10 +2,10 @@ body {
     background: #fefefe;
 }
 
-h1 .header {
+.header {
     color: #033b55;
 }
 
-h2 .sectionHeader {
+h2.section-header {
     color: #419af3;
 }
