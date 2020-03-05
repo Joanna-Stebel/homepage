@@ -1,16 +1,31 @@
-body {
+    body {
     background: #fefefe;
     margin-left: 0em;
     margin-right: 0em;
 }
 
-main {
-    margin-right: 1em;
-    margin-left: 1em;
+.navigation {
+    background: #f0ed40;
+    position: fixed;
+    padding: 20px 0 20px 0;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.navigation a {
+    text-decoration: none;
+    padding: 0 10px 0 10px;
+}
+
+.main {
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 70px;
 }
 
 .heading {
-    background: #7d7f80;
+    text-align: center;
 }
 
 .header {
@@ -25,3 +40,6 @@ h2.section-header {
 .information-me {
     font-size: 1em;
 }
+
+.secend-header {
+    color: #5e8fe9;
