@@ -1,8 +1,12 @@
+        html,
+        body {
+            height: 100%;
+        }
+        
         body {
             background: #fefefe;
             margin-left: 0em;
             margin-right: 0em;
-            height: 100%;
         }
         
         .navigation {
@@ -14,7 +18,7 @@
             left: 0;
         }
         
-        .navigation a {
+        .navigation .link {
             text-decoration: none;
             padding: 0 10px 0 10px;
         }
@@ -25,24 +29,21 @@
             margin-top: 70px;
         }
         
-        .heading {
+        .header {
             text-align: center;
         }
         
-        .header {
+        .header__title {
             color: #033b55;
         }
         
-        h2.section-header {
+        .section__title {
             color: #419af3;
             font-size: 2em;
         }
         
-        .information-me {
+        .section__title-information {
             font-size: 1em;
-        }
-        
-        .secend-header {
             color: #5e8fe9;
         }
         
@@ -52,5 +53,4 @@
             height: 60px;
             text-align: center;
             background: #0198fc;
-            bottom: 0;
         }
